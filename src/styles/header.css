@@ -1,0 +1,59 @@
+header {
+  display: flex;
+}
+
+header::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  z-index: -1;
+
+  width: 100vw;
+  height: 100vh;
+
+  background: url("../images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  opacity: 0.1;
+
+  content: "";
+}
+
+header h2 {
+  position: relative;
+  top: 0;
+  left: 165px;
+}
+
+header h2:nth-of-type(1) {
+  color: var(--c-base);
+}
+
+header img {
+  position: absolute;
+  top: 55px;
+  right: -270px;
+
+  height: 525px;
+}
+
+header article {
+  position: relative;
+  top: 70px;
+  left: 165px;
+
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  font-weight: bold;
+  column-count: 2;
+  column-gap: 30px;
+}
+
+header .btn {
+  position: relative;
+  top: 140px;
+  left: 365px;
+}

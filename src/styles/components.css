@@ -1,0 +1,16 @@
+.btn {
+  padding: 24px 12px;
+
+  color: var(--c-white);
+  text-transform: uppercase;
+  text-decoration: none;
+
+  background: var(--c-base);
+  border: none;
+
+  cursor: pointer;
+}
+
+.btn:hover {
+  background: var(--c-base-hover);
+}

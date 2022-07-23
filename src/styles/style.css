@@ -1,7 +1,3 @@
-/** CSS STYLE **/
-
-.hello {
-  display: block;
-
-  color: #fff;
-}
+@import "base.css";
+@import "components.css";
+@import "header.css";

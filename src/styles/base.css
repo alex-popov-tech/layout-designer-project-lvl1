@@ -1,0 +1,46 @@
+/** CSS STYLE **/
+:root {
+  --c-white: #fff;
+  --c-trans-white: #d7ccc0;
+  --c-bright: #f5f4f0;
+  --c-base: #fe8a02;
+  --c-base-hover: #ea7600;
+  --c-base-dark: #42413c;
+  --c-dark: #2a2626;
+  --c-trans-dark: #908d8b;
+  --c-brown: #b09a81;
+  --c-blue: #1085c5;
+}
+
+* {
+  color: #2a2626;
+  font: 16px/1.6em "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Neucha, sans-serif;
+  line-height: 1.2em;
+}
+
+h1 {
+  font-size: 72px;
+}
+
+h2 {
+  font-size: 60px;
+}
+
+h3 {
+  font-size: 34px;
+}
+
+section {
+  max-width: 1110px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
